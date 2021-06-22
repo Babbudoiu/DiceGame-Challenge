@@ -42,8 +42,6 @@ if(rollDice == 1) {
 
     document.getElementById("message").innerHTML = currentPlayer + "Lost! New game to start again!"
     
-
-
 } else {
 
     document.getElementById("message").innerHTML = currentPlayer + "Roll or Hold"
@@ -64,13 +62,13 @@ if(totalScore >= 20) {
 // hold button
 hold.addEventListener("click", () => {
 
-    if (currentPlayer == "Player 1") {
+    if (currentPlayer == "Player 1 ") {
 
-        currentPlayer = "Player 2"
+        currentPlayer = "Player 2 "
 
     } else  {
 
-        currentPlayer = "Player 1"
+        currentPlayer = "Player 1 "
     }
 
 });
