@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    font-size: 80px;
+    color: #FE5D26;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+    letter-spacing: 4px;
+}
+
+h2 {
+    position: absolute;
+    top: 20%;
+    font-size: 65px;
+    color: #FE5D26;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+    letter-spacing: 6px;
+}
+
+h2 span {
+    color: #F4FF52;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+}
+
+/* player 1 panel config */
+.player-1-panel-active {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    font-size: 45px;
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.player-1-panel-active p {
+    letter-spacing: 3px;
+    padding-top: 10px;
+    color:#F4FF52;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+}
+
+#name-1 {
+    color:#FE5D26;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+}
+
+#total-1 {
+    color:#F4FF52;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+}
+
+.player-label {
+    color:#FE5D26;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+}
+
+#current-1 {
+    color:#F4FF52;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+}
+
+/* player 2 panel config */
+.player-2-panel {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    font-size: 45px;
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.player-2-panel p {
+    letter-spacing: 3px;
+    padding-top: 10px;
+    color:#F4FF52;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+}
+
+#name-2 {
+    color:#FE5D26;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+}
+
+#total-2 {
+    color:#F4FF52;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+}
+
+.player-label {
+    color:#FE5D26;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+}
+
+#current-2 {
+    color:#F4FF52;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 1px 1px 2px black, 0 0 25px #F8F7F9, 0 0 5px #F8F7F9;
+}
+
+/* buttons */
+
+#newGameBtn {
+    font-size: 45px;
+    position: absolute;
+    top: 36%;
+    left: 45.5%;
+    border: 2px solid white;
+    color: #FF006E;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FE5D26, 0 0 5px #FE5D26;
+    background-color:black;
+    width: 10%; 
+    height: 7%;   
+}
+
+#rollBtn {
+    font-size: 45px;
+    position: absolute;
+    top: 44.5%;
+    left: 45.5%;
+    border: 2px solid white;
+    color: #FF006E;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FE5D26, 0 0 5px #FE5D26;
+    background-color:black;
+    width: 10%; 
+    height: 7%;   
+}
+
+#holdBtn {
+    font-size: 45px;
+    position: absolute;
+    top: 52.5%;
+    left: 45.5%;
+    border: 2px solid white;
+    color: #FF006E;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FE5D26, 0 0 5px #FE5D26;
+    background-color:black;
+    width: 10%;  
+    height: 7%;  
+}
+
+#editNamesBtn {
+    font-size: 45px;
+    position: absolute;
+    top: 60.5%;
+    left: 45.5%;
+    border: 2px solid white;
+    color: #FF006E;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FE5D26, 0 0 5px #FE5D26;
+    background-color:black;
+    width: 10%;
+    height: 7%;    
+}
+
+/* hover effects */
+#newGameBtn:hover {
+    font-size: 50px;
+}
+
+#rollBtn:hover {
+    font-size: 55px;   
+}
+
+#holdBtn:hover {
+    font-size: 55px;
+}
+
+#editNamesBtn:hover {
+    font-size: 47px;    
+}
